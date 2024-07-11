@@ -80,16 +80,16 @@ body {
 
 /* Estilo del h1 */
 .hero h1 {
-    font-weight: 400; /* Ajusta el peso de la fuente para el h1 */
-    font-size: 36px; /* Puedes ajustar el tamaño según sea necesario */
+    font-weight: 400;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
 /* Estilo del p */
 .hero p {
-    font-weight: 400; /* Ajusta el peso de la fuente para el párrafo */
-    font-size: 20px; /* Puedes ajustar el tamaño según sea necesario */
-    line-height: 1.6; /* Ajusta el espaciado entre líneas */
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
@@ -187,26 +187,26 @@ input:checked ~ .tab-content {
 /* Estilos para la barra de navegación */
 .navbar {
     width: 100%;
-    background-color: #333; /* Color de fondo de la barra de navegación */
+    background-color: #333;
     padding: 1rem;
-    text-align: center; /* Centra el contenido de la barra de navegación */
+    text-align: center;
 }
 
 /* Contenedor de la imagen */
 .image-container {
     display: flex;
-    justify-content: center; /* Centra la imagen horizontalmente */
-    padding-top: 1rem; /* Añade un poco de espacio superior */
+    justify-content: center; 
+    padding-top: 1rem; 
 }
 
 /* Estilos para la imagen con el logo */
 .imagen {
-    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 200px;
     height: auto;
 }
 
 /* Estilos para el encabezado principal */
 h1 {
     text-align: center;
-    margin-top: 1rem; /* Añade un margen superior para separar del contenedor de la imagen */
+    margin-top: 1rem;
 }
