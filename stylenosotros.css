@@ -112,13 +112,13 @@ body {
 }
 
 .hero-image {
-    width: 500px; /* Ajusta el tamaño según tus necesidades */
-    margin: auto; /* Centra la imagen horizontalmente */
-    transition: transform 0.3s ease; /* Suaviza la transformación */
+    width: 500px;
+    margin: auto;
+    transition: transform 0.3s ease;
 }
 
 .hero-image:hover {
-    transform: scale(1.2); /* Escala la imagen al 120% de su tamaño original */
+    transform: scale(1.2);
 }
 
 .imagen {
@@ -152,11 +152,11 @@ body {
     height: auto;
     margin: 0 60px;
     margin-bottom: 10%;
-    transition: transform 0.3s ease; /* Suaviza la transformación */
+    transition: transform 0.3s ease;
 }
 
 .image-container img:hover {
-    transform: scale(1.2); /* Escala la imagen al 120% de su tamaño original */
+    transform: scale(1.2);
 }
 
 h1 {
