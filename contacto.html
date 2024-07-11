@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Amigurumis Soda</title>
+    <link rel="stylesheet" href="stylescontacto.css">
+    <link rel="icon" type="image/png" href="imagenes/logo.png"/>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="inicio.html">inicio</a>
+            <a href="contacto.html">contacto</a>
+            <a href="sobrenosotros.html">sobre nosotros</a>
+            <a href="https://www.instagram.com/sodamigurumi/" target="_blank">instagram</a>
+            <a href="https://wa.me/1133878649? text=¡Hola! Quiero consultar el costo de un muñequito." target="_blank">whatsapp</a>
+        </nav>
+        
+</header>
+
+    <section class="contact-section">
+        <h2>ENVIANOS TU CONSULTA</h2>
+        <form action="https://formspree.io/f/xpwawwko" method="POST">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="Nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="Mail" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="Teléfono">
+            </div>
+            <div class="form-group">
+                <label for="help">¿En qué puedo ayudarte?</label>
+                <select id="help" name="Ayuda">
+                    <option value="Consulta general">Consulta general</option>
+                    <option value="Consulta sobre un diseño">Consulta sobre un diseño</option>
+                    <option value="Consulta sobre un precio">Consulta sobre un precio</option>
+                    <option value="Consulta sobre un personalizado">Consulta sobre un personalizado</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" name="Comentario" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <div class="recordatorio">
+
+    <h1>
+        RECORDATORIO:
+    </h1>    
+    <h2>
+        <p>La única forma de contactarnos es a traves de este formulario, o mensaje directo en instagram / mensaje privado en whatsapp,</p>
+        <p>los cuales se encuentran en la barra de navegacion de la parte superior de la página.</p>
+        <p>NO contamos con tienda física.</p>
+    </h2>
+
+    </div>
+    
+    <section class="map">
+        <!-- Coloca aquí tu mapa de Google Maps o código de mapa interactivo -->
+        
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5934056243345!2d-58.70198852499669!3d-34.664969972932376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf86ef457285%3A0xd8055b178c177d4c!2sUniversidad%20Nacional%20del%20Oeste!5e0!3m2!1ses!2sar!4v1695747016879!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+</body>
+</html>

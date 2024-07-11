@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' Viewer/99.9.8843.88';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'ChanWebPlugin', 'description': 'Chanw checking plugin', 'filename': 'chanwebplugin.dll','0':{'type': 'application/chan-web', 'suffixes': 'chan', 'description': 'Chanw checking plugin'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigurumis Soda</title>
+    <link rel="stylesheet" href="stylesinicio.css">
+    <link rel="icon" type="image/png" href="imagenes/logo.png"/>
+</head>
+<body>
+    <header>
+            <nav>
+                <a href="inicio.html">inicio</a>
+                <a href="contacto.html">contacto</a>
+                <a href="sobrenosotros.html">sobre nosotros</a>
+                <a href="https://www.instagram.com/sodamigurumi/" target="_blank">instagram</a>
+                <a href="https://wa.me/1133878649? text=¡Hola! Quiero consultar el costo de un muñequito." target="_blank">whatsapp</a>
+            </nav>
+            
+    </header>
+    <main>
+
+        <div class="image-container">
+            <img src="imagenes/logocopia.png" alt="Imagen" class="imagen">
+        </div>
+        
+        <section class="hero">
+            <h1>AMIGURUMIS SODA</h1>
+            <p>muñecos a crochet personalizados</p>
+
+        </section>
+
+        
+        <div class="accordion">
+            <div class="tab">
+            <input type="checkbox" id="tab1" />
+            <label class="tab-label" for="tab1">Caracteristicas</label>
+            <div class="tab-content">
+                <p>Todos los muñecos son realizados en un hilo de algodon resistente que no pierde ni su forma ni su color al lavarlo,
+                <p>y rellenados con un vellon siliconado especial el cual no genera alergias ni se desprende facilmente del muñeco.</p>
+                <p>Los colores o bordados se hacen a gusto del cliente.</p>
+            </div>
+            </div>
+            <div class="tab">
+            <input type="checkbox" id="tab2" />
+            <label class="tab-label" for="tab2">Información importante</label>
+            <div class="tab-content">
+                <li>Todos los muñecos publicados en ig estan en stock.</li> 
+                <li>Solo trabajo con seña por transferencia.</li> 
+                <li>NO realizo envios, solo entregas presenciales.</li> 
+            </div>
+            </div>
+            <div class="tab">
+            <input type="checkbox" id="tab3" />
+            <label class="tab-label" for="tab3">Preguntas frecuentes</label>
+            <div class="tab-content">
+                <ul>
+                    <li>
+                        ¿En qué material tejo y relleno?
+                        <p>Todos los muñecos son realizados en hilo de algodón. Este es el hilo mas resistente en el mundo del crochet: Soporta bien los lavados, mantiene muy bien la forma del tejido y no larga pelo ni bolitas lo cual lo hace ideal para bebés o muñecos que van a ser manipulados con frecuencia. Tambien son rellenados con un vellón siliconado especial el cual no genera alergias ni se desprende facilmente del muñeco.</p>
+                    </li>
+                    <li>
+                        ¿Qué cosas se pueden personalizar o modificar en los muñecos?
+                        <p>Colores, expresion de boca, bordar alguna forma o inicial, agregar un corazón o flor, con/sin llavero.</p>
+                    </li>
+                    <li>
+                        ¿Trabajas con seña?
+                        <p>Sí,todos los pedidos se realizan con una seña del 50% del total. El resto del dinero se abona en la entrega del trabajo. La seña NO se devuelve en caso de cancelar el pedido.</p>
+                    </li>
+                    <li>
+                        ¿Cuáles son sus medios de pago?
+                        <p>Efectivo o transferencia</p>
+                    </li>
+                    <li>¿Realizan envios?
+                        <p>No hacemos envíos. Solo entregas presenciales.</p>
+                    </li>
+                </ul>    
+            </div>
+            </div>
+            </div>
+
+    </main>
+</body>
+</html>
